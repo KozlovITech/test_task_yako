@@ -20,6 +20,7 @@ class SearchBar extends StatelessWidget {
                 prefixIcon: Icon(
                   Icons.search,
                   color: Colors.black,
+                  size: 33,
                 ),
                 contentPadding: EdgeInsets.only(top: 10),
               ),

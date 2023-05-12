@@ -19,7 +19,7 @@ class _ChatPageScreenState extends State<ChatPageScreen> {
         children: [
           const SearchBar(),
           SizedBox(
-            height: 575,
+            height: 595,
             child: SingleChildScrollView(
               child: Column(
                 children: viewMessage
