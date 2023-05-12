@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-
+import 'package:yako_task/src/themes/fonts.dart';
 
 class ModelsViewMessage extends StatelessWidget {
   final String avatar;
@@ -40,31 +40,15 @@ class ModelsViewMessage extends StatelessWidget {
                     children: [
                       Text(
                         nameSurname,
-                        style: const TextStyle(
-                          color: Colors.black,
-                          fontWeight: FontWeight.bold,
-                          fontSize: 18,
-                          letterSpacing: 0.8,
-                        ),
+                        style: Fonts.nameSurname,
                       ),
-                      Text(
-                        date,
-                        style: const TextStyle(
-                          color: Color.fromARGB(255, 7, 35, 161),
-                          fontSize: 14,
-                        ),
-                      ),
+                      Text(date, style: Fonts.date),
                     ],
                   ),
                   const SizedBox(height: 5),
                   Text(
                     message,
-                    style: const TextStyle(
-                      color: Colors.black,
-                      fontSize: 16,
-                      fontWeight: FontWeight.w400,
-                      letterSpacing: 0.4,
-                    ),
+                    style: Fonts.message,
                   ),
                   if (briefNotification.isNotEmpty &&
                       identical(briefNotification, "Challenge"))
@@ -78,12 +62,7 @@ class ModelsViewMessage extends StatelessWidget {
                       ),
                       child: Text(
                         briefNotification,
-                        style: const TextStyle(
-                          color: Colors.white,
-                          fontSize: 16,
-                          fontWeight: FontWeight.w400,
-                          letterSpacing: 0.4,
-                        ),
+                        style: Fonts.briefNotification,
                       ),
                     ),
                   if (briefNotification.isNotEmpty &&
@@ -98,12 +77,7 @@ class ModelsViewMessage extends StatelessWidget {
                       ),
                       child: Text(
                         briefNotification,
-                        style: const TextStyle(
-                          color: Colors.white,
-                          fontSize: 16,
-                          fontWeight: FontWeight.w400,
-                          letterSpacing: 0.4,
-                        ),
+                        style: Fonts.briefNotification,
                       ),
                     ),
                   if (briefNotification.isNotEmpty &&
@@ -118,12 +92,7 @@ class ModelsViewMessage extends StatelessWidget {
                       ),
                       child: Text(
                         briefNotification,
-                        style: const TextStyle(
-                          color: Colors.white,
-                          fontSize: 16,
-                          fontWeight: FontWeight.w400,
-                          letterSpacing: 0.4,
-                        ),
+                        style: Fonts.briefNotification,
                       ),
                     ),
                 ],
@@ -131,7 +100,7 @@ class ModelsViewMessage extends StatelessWidget {
             ),
           ],
         ),
-        const SizedBox(height: 20),
+        const SizedBox(height: 15),
         const Divider(height: 1, color: Colors.black26),
       ],
     );

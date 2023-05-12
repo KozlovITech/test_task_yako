@@ -13,6 +13,7 @@ class _MainPageState extends State<MainPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      resizeToAvoidBottomInset : false,
       appBar: PreferredSize(
         preferredSize: const Size.fromHeight(100.0),
         child: Container(
