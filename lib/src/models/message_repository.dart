@@ -1,0 +1,86 @@
+import 'models_view_message.dart';
+
+List<ModelsViewMessage> viewMessage = [
+  const ModelsViewMessage(
+    avatar: "https://i.pravatar.cc/150?img=13",
+    nameSurname: "Michael Grant",
+    message: "You: Thanks",
+    briefNotification: "",
+    date: "Yestreday",
+  ),
+  const ModelsViewMessage(
+    avatar: "https://i.pravatar.cc/150?img=14",
+    nameSurname: "Darren Swinney,Lan...",
+    message: "Darrem: Perhaps if there was some..",
+    briefNotification: "Challenge",
+    date: "13:24",
+  ),
+  const ModelsViewMessage(
+    avatar: "https://i.pravatar.cc/150?img=3",
+    nameSurname: "Alexander Murphy",
+    message: "Alexander: Based on what you've told...",
+    briefNotification: "Help Req.",
+    date: "Mon",
+  ),
+  const ModelsViewMessage(
+    avatar: "https://i.pravatar.cc/150?img=1",
+    nameSurname: "Stephanie Jones",
+    message: "You: What time do you think you'll be...",
+    briefNotification: "",
+    date: "14:48",
+  ),
+  const ModelsViewMessage(
+    avatar: "https://i.pravatar.cc/150?img=5",
+    nameSurname: "Julie McAndrew",
+    message: "You: Thanks Julie",
+    briefNotification: "Engagement Partner",
+    date: "14:48",
+  ),const ModelsViewMessage(
+    avatar: "https://i.pravatar.cc/150?img=18",
+    nameSurname: "Dillan Edmonds",
+    message: "You: Have a good day!",
+    briefNotification: "",
+    date: "2d ago",
+  ),
+  const ModelsViewMessage(
+    avatar: "https://i.pravatar.cc/150?img=13",
+    nameSurname: "Michael Grant",
+    message: "You: Thanks",
+    briefNotification: "",
+    date: "Yestreday",
+  ),
+  const ModelsViewMessage(
+    avatar: "https://i.pravatar.cc/150?img=14",
+    nameSurname: "Darren Swinney,Lan...",
+    message: "Darrem: Perhaps if there was some..",
+    briefNotification: "Challenge",
+    date: "13:24",
+  ),
+  const ModelsViewMessage(
+    avatar: "https://i.pravatar.cc/150?img=3",
+    nameSurname: "Alexander Murphy",
+    message: "Alexander: Based on what you've told...",
+    briefNotification: "Help Req.",
+    date: "Mon",
+  ),
+  const ModelsViewMessage(
+    avatar: "https://i.pravatar.cc/150?img=1",
+    nameSurname: "Stephanie Jones",
+    message: "You: What time do you think you'll be...",
+    briefNotification: "",
+    date: "14:48",
+  ),
+  const ModelsViewMessage(
+    avatar: "https://i.pravatar.cc/150?img=5",
+    nameSurname: "Julie McAndrew",
+    message: "You: Thanks Julie",
+    briefNotification: "Engagement Partner",
+    date: "14:48",
+  ),const ModelsViewMessage(
+    avatar: "https://i.pravatar.cc/150?img=18",
+    nameSurname: "Dillan Edmonds",
+    message: "You: Have a good day!",
+    briefNotification: "",
+    date: "2d ago",
+  ),
+];

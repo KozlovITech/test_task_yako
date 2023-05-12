@@ -26,9 +26,10 @@ class _MainPageState extends State<MainPage> {
                 children: [
                   IconButton(
                     onPressed: () {},
-                    icon: const Icon(
-                      Icons.account_circle_rounded,
-                      color: Colors.white,
+                    icon: const CircleAvatar(
+                      backgroundImage:
+                      NetworkImage("https://i.pravatar.cc/150?img=3"),
+                      radius: 24,
                     ),
                     iconSize: 35,
                   ),
@@ -54,7 +55,10 @@ class _MainPageState extends State<MainPage> {
       bottomNavigationBar:
           BottomNavigationBar(items: const <BottomNavigationBarItem>[
         BottomNavigationBarItem(
-          icon: Icon(Icons.mark_unread_chat_alt),
+          icon: Icon(
+            Icons.mark_unread_chat_alt,
+            color: Color.fromARGB(255, 208, 59, 205),
+          ),
           label: 'Chat',
         ),
         BottomNavigationBarItem(
